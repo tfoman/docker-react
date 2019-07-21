@@ -7,5 +7,5 @@ before_install:
 
 
 script:
-  # docker run USERNAME/docker-react npm run test -- --coverage
-  - docker run -e CI=true USERNAME/docker-react npm run test
+  # docker run tfomandock/docker-react npm run test -- --coverage
+  - docker run -e CI=true tfomandock/docker-react npm run test
